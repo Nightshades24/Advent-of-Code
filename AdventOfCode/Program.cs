@@ -6,13 +6,11 @@ namespace AdventOfCode
     {
         static void Main()
         {
-            string[] input = GetInput(1, false).ToArray();
+            string[] input = GetInput(2, false).ToArray();
 
-            Console.WriteLine(Day1.Part2(input));
+            Console.WriteLine(Day2.Part2(input));
             Console.ReadLine();
         }
-
-
 
         public static List<string> GetInput(int day, bool test)
         {
