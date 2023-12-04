@@ -6,9 +6,9 @@ namespace AdventOfCode
     {
         static void Main()
         {
-            string[] input = GetInput(2, false).ToArray();
+            string[] input = GetInput(3, false).ToArray();
 
-            Console.WriteLine(Day2.Part2(input));
+            Console.WriteLine(Day3.Part2(input));
             Console.ReadLine();
         }
 
